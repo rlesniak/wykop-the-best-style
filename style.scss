@@ -1,0 +1,319 @@
+[data-night-mode] {
+  &,
+  aside.left-panel > section.links > .content ul li.bucket.new:after,
+  header.header > .right > nav > ul > li > a.new:after,
+  li.account > a > a {
+    --whitish: #2c2c2c;
+    --porcelain: #1c1c1c;
+    --steelBluish: #cad0d0;
+    --gullGray: #cad0d0;
+    --tuna: #c4c8c9;
+    --abbey: #c4c8c9;
+    --squeeze: rgba(var(--blackishRGB), 0.025);
+  }
+  article.link-article,
+  aside.left-panel > section.buttons > .content ul li a:before,
+  ul.menu-dropdown,
+  .form-elements p:not(.popper).or span,
+  aside.profile-top > section > figure,
+  header.header > .right > nav > ul > li.dropdown > section,
+  header.header > .right > nav > ul > li.dropdown > ul,
+  li > section section.notifications > .stream > .content > .notify,
+  li > section section.notifications > .stream > .content > .read,
+  li > section section.stream > .content,
+  li > section section.stream > .content > section,
+  li > section section.stream > .content > section.item:hover,
+  section.editor > header > ul > li.lenny-face ul.menu-dropdown li:hover,
+  section.editor
+    > header
+    > ul
+    > li.lenny-face
+    ul.menu-dropdown
+    li:hover:nth-child(2n),
+  section.entry.reply:nth-child(odd),
+  section.notifications section.stream > .content > section.notify:before,
+  section.search-input form > input[type='search'],
+  section.user-info,
+  ul.dropdown:not(.clear-styles) ul.actions {
+    background: #2c2c2c !important;
+  }
+  header.header {
+    background: #3c3c3c !important;
+    color: #0000 !important;
+  }
+  header.header > .left > nav.main > ul li a + strong {
+    background: #f75e2c;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  li.home.active span {
+    color: #3c3c3c !important;
+  }
+  .switch label strong i:nth-child(2),
+  header.header > .left > nav.main > ul li.active a,
+  header.header > .right > nav > ul > li.dropdown > a:hover,
+  section.entry-content .wrapper button,
+  section.entry-content .wrapper button:hover {
+    background: #505050 !important;
+  }
+  section.search-input form > label {
+    background: #c4c8c9;
+  }
+
+  section.search-input form > input[type='search']::placeholder {
+    color: #c4c8c9;
+  }
+  section.entry-content .wrapper a {
+    color: #72aed8;
+  }
+  section.entry > article > header > div.right > div > span {
+    display: inline-block;
+  }
+
+  section.entry > article > header > div.right > div span time {
+    color: #767676;
+  }
+  li.reply {
+    color: #767676 !important;
+  }
+  li.reply:hover {
+    color: #cad0d0 !important;
+  }
+  li.reply::after,
+  li.reply::before {
+    background: #767676 !important;
+  }
+  li.favourite path.border {
+    fill: #767676 !important;
+  }
+  header > .right path {
+    fill: #cad0d0;
+  }
+  .right .username > span {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .last .username > span {
+    font-size: 12px;
+    color: #7b7b7b !important;
+  }
+  li.account > ul > li:hover a,
+  li > section section.notifications > .stream > .content > .notify:hover,
+  section.entry.reply > article,
+  section.notifications section.stream > .content > section.notify:hover:before,
+  ul.dropdown:not(.clear-styles) ul.actions li:hover {
+    background: rgba(var(--blackishRGB), 0.025) !important;
+  }
+
+  li > section section.stream > .content > section.item:not(.unread) {
+    opacity: 1;
+  }
+  header.header > .right > nav > ul > li.dropdown.active > a,
+  header.header > .right > nav > ul > li.dropdown.active > a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  section.editor,
+  section.editor.inner,
+  section.editor:focus-within {
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  section[data-label^='ad: '] {
+    display: none !important;
+  }
+  ::-webkit-scrollbar {
+    width: auto;
+  }
+  section.entry,
+  section.entry:hover {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  section.entry > .comments {
+    margin: 22px 0 0 32px;
+  }
+  .v--modal-box,
+  section.modal > footer {
+    background-color: #2c2c2c;
+  }
+  section.file .upload.over,
+  section.file .upload:hover {
+    background: #313131 !important;
+  }
+  article.link-article > footer:before,
+  section.entry-content .wrapper code {
+    border: 1px solid #1c1c1c;
+    background: #1c1c1c;
+  }
+  section.entry > article:hover,
+  section.link-block > section > article section.info > span:after {
+    background: 0 0;
+  }
+  .entries-sidebar a time.date,
+  .entry-voters a.username,
+  section.entry-voters ul,
+  section.entry-voters ul li a.username span,
+  section.settings-page > nav ul li a,
+  section.settings-page > nav ul li + li a {
+    color: #7b7b7b;
+  }
+  li.account > ul > li:last-of-type a,
+  section.embed-ghost {
+    border-top: 1px solid #1c1c1c;
+  }
+  .form-elements p:not(.popper).or:before {
+    background: #424f59 !important;
+  }
+  section.entry.reply:nth-child(odd).highlighted {
+    background: rgb(60 60 60);
+  }
+  .switch input:checked + label strong i:first-child,
+  section.entry.reply.highlighted,
+  .edit-wrapper > .content > section.entry-content > .wrapper blockquote,
+  .phone input,
+  .settings-page input,
+  .settings-page select,
+  .settings-page textarea,
+  section.editor > header > ul > li.lenny-face ul.menu-dropdown,
+  section.editor
+    > header
+    > ul
+    > li.lenny-face
+    ul.menu-dropdown
+    li:nth-child(2n) {
+    background: #1c1c1c !important;
+  }
+
+  section.editor > header > ul > li.lenny-face ul.menu-dropdown,
+  section.entry-voters ul {
+    padding: 0 0 0 60px;
+  }
+
+  button.toggle-to-favourite:not(.active) .svg-inline svg .body,
+  section.entry.reply:nth-child(odd):not(.highlighted)
+    > article
+    .edit-wrapper
+    > footer
+    section.actions
+    button.toggle-to-favourite:not(.active)
+    .svg-inline
+    svg
+    .body {
+    fill: #313131;
+  }
+
+  section.entry.reply.highlighted
+    .edit-wrapper
+    > footer
+    section.actions
+    button.toggle-to-favourite:not(.active)
+    .svg-inline
+    svg
+    .body {
+    fill: #414141 !important;
+  }
+  section.entry > .comments + section.editor,
+  section.entry > section.editor {
+    margin: 6px 0 9px 31px;
+    width: calc(100% - 23px);
+    background: #1c1c1c;
+  }
+  .messages-page section.entry-content .wrapper blockquote,
+  .phone .vue-tel-input,
+  section.entry > section.editor textarea,
+  section.violations-block > section {
+    background: #1c1c1c;
+  }
+  aside.tag-top > .content > header aside ul li:before {
+    background: #cad0d0 !important;
+  }
+
+  .entry.reply section.entry-photo figure,
+  .entry.reply section.entry-photo figure figcaption {
+    background: #313131 !important;
+    border: none !important;
+  }
+  .entry section.entry-photo figure,
+  .entry section.entry-photo figure figcaption {
+    background: #2c2c2c !important;
+    border: none !important;
+    color: var(--tuna);
+  }
+  .editor.expand.inner .switch label strong i:first-child {
+    background: #2c2c2c;
+  }
+  .links > .content .buckets > .bucket:after,
+  .messages-page section.message > article.me > div.content,
+  .notifications.dropdown > a:after {
+    border: none !important;
+  }
+  section.link-block {
+    box-shadow: 0 0 0 1px #1c1c1c !important;
+    -webkit-box-shadow: 0 0 0 1px #1c1c1c !important;
+  }
+  section.settings-page > nav ul li a:before {
+    background: #7b7b7b;
+  }
+  section.images figure.background {
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#3c3c3c),
+      to(#1c1c1c)
+    );
+    background-image: linear-gradient(
+      to top,
+      #3c3c3c 0,
+      #1c1c1c 100%
+    ) !important;
+    background-color: #1c1c1c !important;
+  }
+  .settings-page button.change {
+    color: #cad0d0 !important;
+    background-color: #505050 !important;
+  }
+  .phone input::placeholder {
+    color: #515151 !important;
+  }
+  section.violations-block + section:before {
+    border-top: 1px dashed #515151;
+  }
+  section.modal > footer {
+    background: #2c2c2c !important;
+  }
+  section.modal input {
+    background-color: #1c1c1c !important;
+  }
+  section.file .upload span {
+    color: #cad0d0;
+  }
+}
+
+.vue-simple-spinner {
+  border-color: #cad0d0 #2c2c2c #2c2c2c !important;
+}
+section.editor > header > ul > li.lenny-face ul.menu-dropdown {
+  height: auto;
+}
+section.entry-stream-skeleton > .comments > article:nth-child(odd) {
+  background: #3c3c3c !important;
+}
+section.entry-photo figure:after {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(var(--whitishRGB), 0)),
+    to(#1c1c1c)
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--whitishRGB), 0) 0,
+    #1c1c1c 100%
+  ) !important;
+}
+section.editor > header > ul > li.lenny-face ul.menu-dropdown {
+  border: none;
+}

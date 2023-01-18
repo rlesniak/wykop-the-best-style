@@ -1,0 +1,16 @@
+{
+  "name": "wykop-the-best-style",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@7.25.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass style.scss style.css --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}

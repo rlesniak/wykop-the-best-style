@@ -10,6 +10,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@v2
+
+    - name: Install deps
+      run: pnpm i
+
+    - name: Compile sass
+      run: pnpm run sass
 
     - name: Build
       run: python3 generate_adblock_rules.py
@@ -17,6 +24,8 @@ jobs:
     - name: Store artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: adblock.rules.txt
-        path: adblock.rules.txt
+        name: rules
+        path: |
+          adblock.rules.txt
+          style.css
         if-no-files-found: error
